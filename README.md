@@ -1,7 +1,9 @@
 # BAEKJOON_Javascript
 
-// 백준 알고리즘 문제를 javascript로 풀기 위한 가이드라인
+백준 알고리즘 문제를 자바스크립트로 풀기 위해 만든 레파지토리.
+채점 완료(정답)된 문제만 올릴 것. 
 
+// 백준 알고리즘 문제를 javascript로 풀기 위한 가이드라인
 
 const readline = require('readline').createInterface({
 
