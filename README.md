@@ -7,7 +7,7 @@ const readline = require('readline').createInterface({
 });
 
 let input = [];
-
+ 
 readline.on('line', function(line) {
     input = line.split(' ').map(el => parseInt(el));
 }).on('close', function(){
