@@ -8,12 +8,12 @@ const readline = require('readline').createInterface({
 
 let input = [];
  
-readline.on('line', function(line) {
-    input = line.split(' ').map(el => parseInt(el));
+readline.on('line', function(line) {	
+	input = line.split(' ').map(el => parseInt(el));
 }).on('close', function(){
-	/*
-		솔루션 작성
-	*/
+	/*	
+ 		솔루션 작성
+   	*/
     process.exit();
 });
 
