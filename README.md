@@ -2,7 +2,8 @@
 
 // 백준 알고리즘 문제를 javascript로 풀기 위한 가이드라인
 
-
+const readline = require('readline').createInterface({
+	input: process.stdin,
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout,
